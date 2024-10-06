@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+body {
+    background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
 h1{
     background-color: #081b31 ;
     color: #fff;
@@ -38,7 +42,7 @@ img{
     justify-content: center;
     align-items: center;
     gap: 5%;
-    margin-top:5% ;
+    margin-top:3% ;
 }
 
 .score-board{
@@ -66,4 +70,23 @@ img{
     display: inline;
     padding: 1rem;
     border-radius: 1rem;
+}
+
+.restart-container {
+    margin-top: 3rem;
+}
+
+#restart-btn {
+    background-color: #081b31;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#restart-btn:hover {
+    background-color: #0564c3;
 }

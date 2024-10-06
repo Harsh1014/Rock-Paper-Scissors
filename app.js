@@ -8,6 +8,8 @@ const userScorePara = document.querySelector("#user-score");
 const compScorePara = document.querySelector("#comp-score");
 const TMoveScorePara = document.querySelector("#total-move");
 
+const restartBtn = document.querySelector("#restart-btn");
+
 const genCompChoice = () => {
     const options =["rock","paper","scissors"];
     const randIdx = Math.floor(Math.random() * 3);
@@ -76,3 +78,16 @@ choices.forEach((choice) => {
     });
 });
 
+restartBtn.addEventListener("click", () => {
+    // Reset scores and UI elements
+    userScore = 0;
+    compScore = 0;
+    totalMove = 0;
+
+    userScorePara.innerText = userScore;
+    compScorePara.innerText = compScore;
+    TMoveScorePara.innerText = totalMove;
+
+    msg.innerText = "Play your move";
+    msg.style.backgroundColor = "#081b31";
+});
