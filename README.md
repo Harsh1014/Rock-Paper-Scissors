@@ -39,5 +39,6 @@ This is a simple Rock Paper Scissors game built using HTML, CSS, and JavaScript.
 3.Start playing!
 
 ## ScreenShot
-![image](https://github.com/user-attachments/assets/30a3aeab-e264-4191-9ae4-6779041275a6)
+![image](https://github.com/user-attachments/assets/7a181fd0-1837-49e7-b4b3-20c1fc00f43d)
+
 
