@@ -31,10 +31,10 @@ This is a simple Rock Paper Scissors game built using HTML, CSS, and JavaScript.
 
 ## How to Run Locally
 1.Clone the repository:
-    git clone https://github.com/Harsh1014/Rock-Paper-Scissors.git
+     git clone https://github.com/Harsh1014/Rock-Paper-Scissors.git
 
 2.Navigate to the project directory:
-  cd RockPaperScissors
+   cd Rock-Paper-Scissors
 
 3.Start playing!
 
