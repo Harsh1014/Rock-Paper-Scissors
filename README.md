@@ -27,6 +27,7 @@ This is a simple Rock Paper Scissors game built using HTML, CSS, and JavaScript.
     ├── rock.png      # Image for Rock
     ├── paper.png     # Image for Paper
     └── scissors.png  # Image for Scissors
+```
 
 ## How to Run Locally
 1.Clone the repository:
